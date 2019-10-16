@@ -22,7 +22,7 @@
     "buildTool": "maven",
     "enableSwaggerCodegen": true,
     "jwtSecretKey": "YzNmMmI1MDg4NmE3MGM5NmU0NmE4OWYxNGZjNjAxOWNlNDhhYTFkNmFlYTk2MjNhMzY3NzFlZDIwNjUyYWVhNmUzYzI1YmJlNDdlOWI0NzI0MGI4NWM3ZmZmZDZkYTRmMDgxNjlmM2UwNzg1ODBlYTRiYTlkMjMxNWEyMWVhNWI=",
-    "embeddableLaunchScript": false,
+    "embeddableLaunchScript": true,
     "testFrameworks": [
       "gatling",
       "cucumber"
