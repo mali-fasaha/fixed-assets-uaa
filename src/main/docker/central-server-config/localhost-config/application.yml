@@ -7,7 +7,7 @@ jhipster:
   security:
     authentication:
       jwt:
-        secret: my-secret-key-which-should-be-changed-in-production-and-be-base64-encoded
+        secret: YzNmMmI1MDg4NmE3MGM5NmU0NmE4OWYxNGZjNjAxOWNlNDhhYTFkNmFlYTk2MjNhMzY3NzFlZDIwNjUyYWVhNmUzYzI1YmJlNDdlOWI0NzI0MGI4NWM3ZmZmZDZkYTRmMDgxNjlmM2UwNzg1ODBlYTRiYTlkMjMxNWEyMWVhNWI=
 
 eureka:
   client:

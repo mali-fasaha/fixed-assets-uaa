@@ -1,4 +1,4 @@
-# fixedAssetsUaa
+# Fixed Assets Uaa
 
 This application was generated using JHipster 6.4.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.4.1](https://www.jhipster.tech/documentation-archive/v6.4.1).
 
@@ -125,3 +125,20 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [openapi-generator]: https://openapi-generator.tech
 [swagger-editor]: https://editor.swagger.io
 [doing api-first development]: https://www.jhipster.tech/documentation-archive/v6.4.1/doing-api-first-development/
+
+## Setup
+
+The following keys need to be setup to enable connection to database
+    - PG_DATABASE_DEV_USER
+    - PG_DATABASE_DEV_PASSWORD
+    
+Ensure the postgresql instance is running on port : 5858857
+
+The postgresql instance might require access rights to the path: 
+    /var/lib/postgresql/data/
+    
+Ideally the app is meant to persist data to a containerised postgresql instance. Simply running the command
+    
+    docker-compose -f src/main/docker/app.yml up -d
+    
+will result in a postgresql instance being set up on port 585857
