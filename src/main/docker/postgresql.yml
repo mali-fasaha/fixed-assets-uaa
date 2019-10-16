@@ -3,9 +3,10 @@ services:
   fixedassetsuaa-postgresql:
     image: postgres:11.5
     volumes:
-      - ~/volumes/jhipster/fixedAssetsUaa/postgresql/:/var/lib/postgresql/data/
+      - ~/volumes/jhipster/fixedAssetsUaa/postgresql/:/var/lib/postgresql/fixedAssetsUaaData/
     environment:
       - POSTGRES_USER=${PG_DATABASE_DEV_USER}
       - POSTGRES_PASSWORD=${PG_DATABASE_DEV_PASSWORD}
+      - POSTGRES_DB=fixedAssetsUaa
     ports:
       - 58211:5432
