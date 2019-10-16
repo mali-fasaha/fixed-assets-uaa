@@ -131,6 +131,10 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 The following keys need to be setup to enable connection to database
     - PG_DATABASE_DEV_USER
     - PG_DATABASE_DEV_PASSWORD
+    - JHIPSTER_REGISTRY_USERNAME
+    - JHIPSTER_REGISTRY_PASSWORD
+    - JHIPSTER_SECURITY_AUTH_JWT_SECRET
+    - JHIPSTER_SECURITY_AUTH_JWT_BASE64-SECRET
     
 Ensure the postgresql instance is running on port : 5858857
 
