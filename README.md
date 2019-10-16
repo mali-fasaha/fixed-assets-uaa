@@ -136,7 +136,7 @@ The following keys need to be setup to enable connection to database
     - JHIPSTER_SECURITY_AUTH_JWT_SECRET
     - JHIPSTER_SECURITY_AUTH_JWT_BASE64-SECRET
     
-Ensure the postgresql instance is running on port : 5858857
+Ensure the postgresql instance is running on port : 58211
 
 The postgresql instance might require access rights to the path: 
     /var/lib/postgresql/data/

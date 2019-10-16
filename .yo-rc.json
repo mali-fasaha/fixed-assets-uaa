@@ -8,7 +8,7 @@
     "baseName": "fixedAssetsUaa",
     "packageName": "io.github.assets.uaa",
     "packageFolder": "io/github/assets/uaa",
-    "serverPort": "585858",
+    "serverPort": "58212",
     "authenticationType": "uaa",
     "cacheProvider": "hazelcast",
     "enableHibernateCache": true,

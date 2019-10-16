@@ -2,11 +2,11 @@
 # This file will be used at compile time to generate Spring-MVC endpoint stubs using openapi-generator
 openapi: '3.0.1'
 info:
-  title: 'fixedAssetsUaa'
+  title: 'Fixed Assets UAA'
   version: 0.0.1
 servers:
-  - url: http://localhost:585858
+  - url: http://localhost:58211
     description: Development server
-  - url: https://localhost:585858
+  - url: https://localhost:58212
     description: Development server with TLS Profile
 paths: {}

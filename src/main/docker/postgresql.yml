@@ -8,4 +8,4 @@ services:
       - POSTGRES_USER=${PG_DATABASE_DEV_USER}
       - POSTGRES_PASSWORD=${PG_DATABASE_DEV_PASSWORD}
     ports:
-      - 585857:5432
+      - 58211:5432

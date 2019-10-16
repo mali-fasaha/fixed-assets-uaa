@@ -59,7 +59,7 @@ spring:
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:585857/fixedAssetsUaa
+    url: jdbc:postgresql://localhost:58211/fixedAssetsUaa
     username: ${PG_DATABASE_DEV_USER}
     password: ${PG_DATABASE_DEV_PASSWORD}
     hikari:
@@ -107,7 +107,7 @@ spring:
         enabled: true
 
 server:
-  port: 585858
+  port: 58212
 
 # ===================================================================
 # JHipster specific properties
