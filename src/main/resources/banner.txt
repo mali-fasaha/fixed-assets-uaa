@@ -6,5 +6,5 @@
  | |__| / ____ \  / ____ \           | |    | |>  <  __/ (_| |  / ____ \\__ \__ \  __/ |_\__ \
   \____/_/    \_\/_/    \_\          |_|    |_/_/\_\___|\__,_| /_/    \_\___/___/\___|\__|___/
 
-${AnsiColor.BRIGHT_BLUE}:: Fixed Assets UAA Version 0.0.1  :: Running Spring Boot ${spring-boot.version} ::
+${AnsiColor.BRIGHT_BLUE}:: Fixed Assets UAA Version 0.0.2  :: Running Spring Boot ${spring-boot.version} ::
 :: https://www.jhipster.tech ::${AnsiColor.DEFAULT}

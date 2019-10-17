@@ -5,9 +5,26 @@
 
     <groupId>io.github.assets.uaa</groupId>
     <artifactId>fixed-assets-uaa</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
     <name>Fixed Assets Uaa</name>
+
+    <description>Fixed Assets User Authentication and Authorization</description>
+
+    <developers>
+        <developer>
+            <name>Edwin Njeru</name>
+            <url>https://github.com/ghacupha</url>
+            <email>mailnjeru@gmail.com</email>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>GPL version 3</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+        </license>
+    </licenses>
 
     <repositories>
         <!-- jhipster-needle-maven-repository -->

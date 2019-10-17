@@ -1,9 +1,9 @@
 {
   "name": "fixed-assets-uaa",
-  "version": "0.0.0",
-  "description": "Description for fixedAssetsUaa",
+  "version": "0.0.2",
+  "description": "Fixed Assets User Authentication and Authorization",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "GPLv3",
   "cacheDirectories": [
     "node_modules"
   ],

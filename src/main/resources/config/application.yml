@@ -170,7 +170,7 @@ jhipster:
     default-include-pattern: /api/.*
     title: Fixed Assets UAA API
     description: Fixed Assets UAA API documentation
-    version: 0.0.1
+    version: 0.0.2
     terms-of-service-url: https://www.gnu.org/licenses/gpl-3.0.txt
     contact-name: Edwin Njeru
     contact-url: https://github.com/ghacupha
